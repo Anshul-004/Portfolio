@@ -8,9 +8,10 @@ function App() {
 
   return (
     <>
-      <div>
-        Hi There !
+      <div className='text-3xl font-bold text-center'>
+        Hi, I'm Anshul
       </div>
+      <p>This is my portfolio</p>
     </>
   )
 }
