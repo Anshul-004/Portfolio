@@ -23,7 +23,7 @@ const GoTop = () => {
   return (
     <div>
       {backToTopButton && (
-        <button onClick={scrollup} className='fixed bottom-20 right-10 p-2 bg-white rounded-lg bg-purple-500 text-slate-100'>^</button>
+        <button onClick={scrollup} className='fixed bottom-20 right-10 p-2 rounded-lg bg-purple-500 text-slate-100'>^</button>
       )}
     </div>
   )

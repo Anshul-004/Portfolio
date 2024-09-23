@@ -2,7 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="px-24 py-8 " id="about">
+    <div
+      className="px-24 py-8 h-screen flex justify-center flex-col"
+      id="about"
+    >
       <div className="Title text-5xl text-center pb-8">About Me </div>
       <div className="container flex">
         <div className="LHS w-1/4 text-5xl leading-relaxed">
@@ -38,7 +41,9 @@ const About = () => {
             from having extensive knowledge of recognized technical standards, I
             am conversant with modern building practices.
           </p>
-          <button className=" bg-slate-400 p-2 rounded-md hover:bg-red-100">RESUME</button>
+          <button className=" bg-slate-400 p-2 rounded-md hover:bg-red-100">
+            RESUME
+          </button>
         </div>
       </div>
     </div>
