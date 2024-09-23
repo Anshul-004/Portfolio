@@ -1,6 +1,10 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedinIn,faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedinIn,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 const About = () => {
   return (
     <div
@@ -15,35 +19,35 @@ const About = () => {
             Email : <p>anshulsingh024@yahoo.com</p>
           </div>
           <div className="text-xl pt-4">
-            Socials : <div className="pt-2"><FontAwesomeIcon icon={faGithub} size="xl" /> &nbsp; <FontAwesomeIcon icon={faLinkedinIn} size="xl"/> &nbsp; <FontAwesomeIcon icon={faXTwitter} size="xl"/></div>
+            Socials :{" "}
+            <div className="pt-2">
+            <a href="https://github.com/Anshul-004" target="_blank">
+              <FontAwesomeIcon icon={faGithub} size="xl" /> &nbsp;{" "}
+            </a>
+            <a href="https://www.linkedin.com/in/anshulsingh-/" target="_blank">
+              <FontAwesomeIcon icon={faLinkedinIn} size="xl" /> &nbsp;{" "}
+            </a>
+            <a href="https://x.com/Anshul_004_" target="_blank">
+              <FontAwesomeIcon icon={faXTwitter} size="xl" />
+            </a>
+            </div>
           </div>
         </div>
 
         <div className="RHS w-5/6 text-xl px-2">
           <p className=" pb-4">
-            I'm a Frontend Developer who enjoys solving complex problems,
-            creating impactful and user-centered experiences across multiple
-            platforms that are informed by research and data.{" "}
+          I am a computer engineering student with a strong passion for competitive programming and problem-solving. Proficient in languages such as C, C++, Python, and Java, I have a deep interest in backend development with hands-on experience in MySQL and MongoDB. I also have experience in full-stack web development using frameworks like React, Node.js, Express, and Next.js.
           </p>
           <p className=" pb-4">
-            I'm probably not the typical designer positioned behind an
-            Illustrator artboard adjusting pixels, but I design. Immersed in
-            stylesheets tweaking font sizes and contemplating layouts is where
-            you'll find me. I'm committed to creating fluent user experiences
-            while staying fashionable.
+          I am actively involved in open-source contributions and strongly believe in the value of collaboration. My expertise in Git, Linux, and growing interest in networking further fuels my technical curiosity.
           </p>
           <p className=" pb-8">
-            When it comes to business, first impressions matter, and good
-            website design is the key to capitalizing on them. An excellent site
-            is not judged solely on its looks, but on its functionality and
-            usability as well. My experience as a programmer allows me to come
-            up with intelligent solutions to technical challenges, while at the
-            same time designing sleek and visually appealing websites. Aside
-            from having extensive knowledge of recognized technical standards, I
-            am conversant with modern building practices.
+          While I enjoy front-end technologies, my primary focus is on backend systems, where I am driven to design efficient databases and server-side architectures. I'm always seeking new opportunities to expand my skills in backend development and networking technologies.
           </p>
           <button className=" bg-purple-400 text-lg p-2 rounded-md hover:bg-white hover:text-purple-400 border-purple-400 border-2">
-           <a href="/resume_main.pdf" target="_blank">Resume</a>
+            <a href="/resume_main.pdf" target="_blank">
+              Resume
+            </a>
           </button>
         </div>
       </div>
