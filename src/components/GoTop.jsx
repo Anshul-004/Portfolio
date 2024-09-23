@@ -1,5 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
 
 const GoTop = () => {
     const [backToTopButton, setBackToTopButton] = useState(false);
@@ -23,7 +25,7 @@ const GoTop = () => {
   return (
     <div>
       {backToTopButton && (
-        <button onClick={scrollup} className='fixed bottom-20 right-10 p-2 rounded-lg bg-purple-500 text-slate-100'>^</button>
+        <button onClick={scrollup} className='fixed bottom-20 right-10 px-3 py-2 rounded-lg bg-purple-500'><FontAwesomeIcon icon={faAngleUp} fade size='lg' /></button>
       )}
     </div>
   )
