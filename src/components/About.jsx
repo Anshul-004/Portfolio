@@ -14,7 +14,7 @@ const About = () => {
       <div className="Title text-5xl text-center pb-10">About Me </div>
       <div className="container flex">
         <div className="LHS w-1/4 text-5xl leading-relaxed">
-          I'm Anshul Singh. Nice to meet you.
+          I'm <span className=" underline decoration-purple-400">Anshul Singh</span>. Nice to meet you.
           <div className="text-xl pt-4">
             Email : <p>anshulsingh024@yahoo.com</p>
           </div>
