@@ -10,11 +10,7 @@ import {
   faReact,
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
-import {
-  faDatabase,
-  faStarOfLife,
-  faC,
-} from "@fortawesome/free-solid-svg-icons";
+import { faDatabase, faC } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = () => {
   return (
@@ -55,9 +51,6 @@ const Skills = () => {
             <FontAwesomeIcon icon={faNodeJs} size="5x" />
           </li>
         </ul>
-      </div>
-      <div className="EndContainer pt-8 flex justify-center lg:mt-8 md:mt-4">
-        <FontAwesomeIcon icon={faStarOfLife} fade size="xl" />
       </div>
     </div>
   );

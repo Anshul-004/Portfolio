@@ -16,7 +16,7 @@ const Home = () => {
         a CS Undergrad and a Full-Stack Developer.
       </div>
 
-      <div className="text-lg md:text-xl pt-2">I write code for a living.</div>
+      <div className="text-lg md:text-xl pt-2">Yet another developer writing quality code.</div>
       <div className="iconf absolute bottom-0 left-0 right-0 flex justify-center mb-4">
         <FontAwesomeIcon icon={faSortDown} size="3x" bounce />
       </div>
