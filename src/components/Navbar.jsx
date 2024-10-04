@@ -18,7 +18,11 @@ const Navbar = () => {
         </div>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-3xl focus:outline-none">
-            &#9776;
+            {isOpen ? (
+              <span>&#10005;</span> // Cross icon
+            ) : (
+              <span>&#9776;</span> // Hamburger icon
+            )}
           </button>
         </div>
         <ul className={`flex-col md:flex-row md:flex text-lg space-y-4 md:space-y-0 md:space-x-6 ${isOpen ? 'flex' : 'hidden'} md:flex`}>

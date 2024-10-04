@@ -126,16 +126,15 @@ const Project = () => {
               variant="h5"
               className="mb-2 text-lg md:text-xl lg:text-2xl"
             >
-              TTS Assistant
+              Dobby Bot
             </Typography>
             <Typography className="text-sm md:text-base lg:text-lg text-justify">
-              A Simple Text-To-Speech Assistant, created in Python, uses pyttsx3
-              API to reply as programmed. Also capable of playing mini-games.
+              A Discord bot made using discord.js API, can do basic user moderation functions aswell as some minigames along with ping utilities.
             </Typography>
           </CardBody>
           <CardFooter className="pt-0">
             <a
-              href="https://github.com/Anshul-004/TTS-Assistant"
+              href="https://github.com/Anshul-004/DobbyBot"
               target="_blank"
               className="inline-block"
             >
