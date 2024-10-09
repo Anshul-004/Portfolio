@@ -37,8 +37,8 @@ const About = () => {
           <p className="pb-8">
             While I enjoy front-end technologies, my primary focus is on backend systems, where I am driven to design efficient databases and server-side architectures. I'm always seeking new opportunities to expand my skills in backend development and networking technologies.
           </p>
-          <button className="bg-purple-400 text-lg p-2 rounded-md hover:bg-white hover:text-purple-400 border-purple-400 border-2">
-            <a href="/resume_main.pdf" target="_blank" rel="noopener noreferrer">
+          <button className="bg-purple-400 text-lg p-2 rounded-md hover:bg-white hover:text-purple-400 border-purple-400 border-2 text-white">
+            <a href="/resume_main_m1.pdf" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </button>
